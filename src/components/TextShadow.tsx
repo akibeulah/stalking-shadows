@@ -3,7 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export interface TextShadowProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLSpanElement>, HTMLSpanElement> {
     walkX: number;
     walkY: number;
-    label: string;
     shadowColor: string;
 }
 
