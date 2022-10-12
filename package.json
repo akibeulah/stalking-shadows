@@ -1,0 +1,58 @@
+{
+  "name": "@akibeulah/stalking-shadows",
+  "version": "0.6.10",
+  "description": "ReactJS library component for creating dynamic text shadows that shift with mouse movement or page scroll",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "prebuild": "rm -rf dist && node prebuild.js",
+    "rollup": "npm run prebuild && rollup -c && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akibeulah/stalking-shadows.git"
+  },
+  "author": "Akindele Beulah O. (akibeulah@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akibeulah/stalking-shadows/issues"
+  },
+  "homepage": "https://github.com/akibeulah/stalking-shadows#readme",
+  "peerDependencies": {
+    "@types/react": "^18.0.21",
+    "react": "^18.2.0",
+    "rollup": "^2.79.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.21",
+    "react": "^18.2.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  },
+  "keywords": [
+    "React",
+    "Component",
+    "Text",
+    "Shadow",
+    "Dynamic",
+    "Mouse",
+    "Scroll",
+    "mousemove"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/AkiBeulah"
+  }
+}
