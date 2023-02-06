@@ -1,6 +1,6 @@
 {
   "name": "@akibeulah/stalking-shadows",
-  "version": "0.6.10",
+  "version": "1.0.0",
   "description": "ReactJS library component for creating dynamic text shadows that shift with mouse movement or page scroll",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -31,7 +31,6 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
-    "@rollup/plugin-typescript": "^8.3.3",
     "@types/react": "^18.0.21",
     "react": "^18.2.0",
     "rollup": "^2.79.1",
@@ -54,5 +53,8 @@
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/AkiBeulah"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.3"
   }
 }
