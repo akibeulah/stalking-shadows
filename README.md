@@ -7,7 +7,7 @@ A ReactJS library component for creating dynamic text shadows that shift with mo
 ## Installation
 Install `stalking-shadows` from npm: 
 ```bash
-npm install @akibeulah/stalking-shadows@0.6.10
+npm install @akibeulah/stalking-shadows@1.0.0
 ```
 
 ## Getting Started
@@ -27,6 +27,8 @@ class Component extends React.Component {
   }
 }
 ```
+
+See example here: https://timely-kleicha-2df130.netlify.app/
 
 ## Usage
 | **Props**       	| Required 	| Type   	| Default 	| Description                                                	|
